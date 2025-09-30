@@ -4,7 +4,7 @@ GeoNotas es una Aplicación Web Progresiva (PWA) construida con React y Vite. Pe
 
 ## Características Principales ✨
 
-* **100% Funcional Offline:** La aplicación puede abrirse, navegarse y usarse para crear nuevas notas sin conexión a internet.
+* **Funcional Offline:** La aplicación puede abrirse, navegarse y usarse para crear nuevas notas sin conexión a internet.
 * **Sincronización de Fondo:** Las notas creadas offline se guardan localmente y se sincronizan automáticamente con el servidor cuando se recupera la conexión.
 * **Instalable:** Puede ser añadida a la pantalla de inicio de cualquier dispositivo (móvil o escritorio) para una experiencia de app nativa.
 * **Acceso a Hardware Nativo:** Utiliza la **cámara** para tomar fotos y el **GPS** para capturar la ubicación, todo a través de APIs web seguras.
