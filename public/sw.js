@@ -12,7 +12,6 @@ self.addEventListener("activate", (event) => {
   return self.clients.claim(); // Reclama el control de las páginas abiertas
 });
 
-// Escucha notificaciones push (en caso futuro de integrar push real)
 self.addEventListener("push", (event) => {
   const data = event.data?.json() || {};
   const title = data.title || "Nueva notificación";
@@ -25,7 +24,6 @@ self.addEventListener("push", (event) => {
   event.waitUntil(self.registration.showNotification(title, options));
 });
 
-// Opcional: manejar clics en la notificación
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   event.waitUntil(

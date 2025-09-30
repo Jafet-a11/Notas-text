@@ -85,7 +85,6 @@ const NewNoteModal = ({ onSave, onClose }) => {
   };
   
   const handleSave = () => {
-    // ... tu lógica de guardado ...
     onSave({ id: Date.now(), text, photo: capturedImage, location });
   };
   

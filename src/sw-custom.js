@@ -55,8 +55,6 @@ self.addEventListener('sync', (event) => {
   }
 });
 
-
-// --- LÓGICA DE NOTIFICACIONES PUSH (DE TU ARCHIVO ORIGINAL) ---
 self.addEventListener("push", (event) => {
   const data = event.data?.json() || {};
   const title = data.title || "Nueva notificación";
