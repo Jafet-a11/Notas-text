@@ -1,0 +1,13 @@
+.notes-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Una columna en móviles */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Para tablets y escritorios */
+@media (min-width: 768px) {
+  .notes-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}

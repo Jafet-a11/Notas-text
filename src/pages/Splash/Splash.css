@@ -1,0 +1,15 @@
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #242424;
+  color: white;
+  transition: opacity 0.8s ease-out;
+  opacity: 1;
+}
+
+.splash-screen.fade-out {
+  opacity: 0;
+}
